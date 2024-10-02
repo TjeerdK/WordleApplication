@@ -1,0 +1,1 @@
+C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\WordleGame.csproj;x86

@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SHENHE</Machine>
+    <WindowsUser>Tjeerd</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>553c1a13-d118-490e-8d16-6c5a122dea7b</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Tjeerd</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\bin\x86\Release\net6.0-windows10.0.19041.0\win10-x86\AppX</LayoutDir>
+    <RegisteredManifestChecksum>EA93BD9D45CAD0DF259887ABB8B1E35352DA87C8782935457C2C440051F9B4E8</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>553c1a13-d118-490e-8d16-6c5a122dea7b_1.0.0.0_x86__de1d4cn7xm798</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>553c1a13-d118-490e-8d16-6c5a122dea7b_de1d4cn7xm798!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>553c1a13-d118-490e-8d16-6c5a122dea7b</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Tjeerd</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\bin\x86\Release\net6.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-10-02T10:53:44.927</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\bin\x86\Release\net6.0-windows10.0.19041.0\win10-x86\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2024-10-02T10:52:52.416</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\bin\x86\Release\net6.0-windows10.0.19041.0\win10-x86\WordleGame.runtimeconfig.json">
+      <PackagePath>WordleGame.runtimeconfig.json</PackagePath>
+      <Modified>2024-10-02T10:52:51.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\apphost.exe">
+      <PackagePath>WordleGame.exe</PackagePath>
+      <Modified>2024-10-02T10:52:50.691</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\API-MS-Win-core-xstate-l2-1-0.dll">
+      <PackagePath>API-MS-Win-core-xstate-l2-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\Microsoft.DiaSymReader.Native.x86.dll">
+      <PackagePath>Microsoft.DiaSymReader.Native.x86.dll</PackagePath>
+      <Modified>2023-08-03T17:10:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\System.IO.Compression.Native.dll">
+      <PackagePath>System.IO.Compression.Native.dll</PackagePath>
+      <Modified>2023-12-05T18:24:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-console-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-console-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-console-l1-2-0.dll">
+      <PackagePath>api-ms-win-core-console-l1-2-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-datetime-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-datetime-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-debug-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-debug-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-errorhandling-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-errorhandling-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-fibers-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-fibers-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-file-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-file-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-file-l1-2-0.dll">
+      <PackagePath>api-ms-win-core-file-l1-2-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-file-l2-1-0.dll">
+      <PackagePath>api-ms-win-core-file-l2-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-handle-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-handle-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-heap-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-heap-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-interlocked-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-interlocked-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-libraryloader-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-libraryloader-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-localization-l1-2-0.dll">
+      <PackagePath>api-ms-win-core-localization-l1-2-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-memory-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-memory-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-namedpipe-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-namedpipe-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-processenvironment-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-processenvironment-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-processthreads-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-processthreads-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-processthreads-l1-1-1.dll">
+      <PackagePath>api-ms-win-core-processthreads-l1-1-1.dll</PackagePath>
+      <Modified>2021-09-11T19:09:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-profile-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-profile-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-rtlsupport-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-rtlsupport-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-string-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-string-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:10:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-synch-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-synch-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-synch-l1-2-0.dll">
+      <PackagePath>api-ms-win-core-synch-l1-2-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-sysinfo-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-sysinfo-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-timezone-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-timezone-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:10:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-core-util-l1-1-0.dll">
+      <PackagePath>api-ms-win-core-util-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-crt-conio-l1-1-0.dll">
+      <PackagePath>api-ms-win-crt-conio-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-crt-convert-l1-1-0.dll">
+      <PackagePath>api-ms-win-crt-convert-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-crt-environment-l1-1-0.dll">
+      <PackagePath>api-ms-win-crt-environment-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-crt-filesystem-l1-1-0.dll">
+      <PackagePath>api-ms-win-crt-filesystem-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-crt-heap-l1-1-0.dll">
+      <PackagePath>api-ms-win-crt-heap-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-crt-locale-l1-1-0.dll">
+      <PackagePath>api-ms-win-crt-locale-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-crt-math-l1-1-0.dll">
+      <PackagePath>api-ms-win-crt-math-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-crt-multibyte-l1-1-0.dll">
+      <PackagePath>api-ms-win-crt-multibyte-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-crt-private-l1-1-0.dll">
+      <PackagePath>api-ms-win-crt-private-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-crt-process-l1-1-0.dll">
+      <PackagePath>api-ms-win-crt-process-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-crt-runtime-l1-1-0.dll">
+      <PackagePath>api-ms-win-crt-runtime-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-crt-stdio-l1-1-0.dll">
+      <PackagePath>api-ms-win-crt-stdio-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-crt-string-l1-1-0.dll">
+      <PackagePath>api-ms-win-crt-string-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-crt-time-l1-1-0.dll">
+      <PackagePath>api-ms-win-crt-time-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\api-ms-win-crt-utility-l1-1-0.dll">
+      <PackagePath>api-ms-win-crt-utility-l1-1-0.dll</PackagePath>
+      <Modified>2021-09-11T19:09:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\clretwrc.dll">
+      <PackagePath>clretwrc.dll</PackagePath>
+      <Modified>2023-12-05T18:20:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\clrjit.dll">
+      <PackagePath>clrjit.dll</PackagePath>
+      <Modified>2023-12-05T18:18:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\coreclr.dll">
+      <PackagePath>coreclr.dll</PackagePath>
+      <Modified>2023-12-05T18:21:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\createdump.exe">
+      <PackagePath>createdump.exe</PackagePath>
+      <Modified>2023-12-05T18:19:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\dbgshim.dll">
+      <PackagePath>dbgshim.dll</PackagePath>
+      <Modified>2023-12-05T18:20:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\hostfxr.dll">
+      <PackagePath>hostfxr.dll</PackagePath>
+      <Modified>2023-12-05T18:42:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\hostpolicy.dll">
+      <PackagePath>hostpolicy.dll</PackagePath>
+      <Modified>2023-12-05T18:42:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\mscordaccore.dll">
+      <PackagePath>mscordaccore.dll</PackagePath>
+      <Modified>2023-12-05T18:26:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\mscordaccore_x86_x86_6.0.2623.60508.dll">
+      <PackagePath>mscordaccore_x86_x86_6.0.2623.60508.dll</PackagePath>
+      <Modified>2023-12-05T18:26:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\mscordbi.dll">
+      <PackagePath>mscordbi.dll</PackagePath>
+      <Modified>2023-12-05T18:26:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\mscorrc.dll">
+      <PackagePath>mscorrc.dll</PackagePath>
+      <Modified>2023-12-05T18:20:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\msquic.dll">
+      <PackagePath>msquic.dll</PackagePath>
+      <Modified>2023-12-05T18:24:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.26\runtimes\win-x86\native\ucrtbase.dll">
+      <PackagePath>ucrtbase.dll</PackagePath>
+      <Modified>2021-09-11T19:09:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tjeer\.nuget\packages\microsoft.windowsappsdk\1.4.230913002\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+      <Modified>2023-07-28T17:58:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\linked\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2024-10-02T10:53:12.657</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\Microsoft.InteractiveExperiences.Projection.dll">
+      <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
+      <Modified>2024-10-02T10:53:15.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\Microsoft.WinUI.dll">
+      <PackagePath>Microsoft.WinUI.dll</PackagePath>
+      <Modified>2024-10-02T10:53:16.245</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\Microsoft.Windows.AppLifecycle.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppLifecycle.Projection.dll</PackagePath>
+      <Modified>2024-10-02T10:53:16.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\Microsoft.Windows.AppNotifications.Builder.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Builder.Projection.dll</PackagePath>
+      <Modified>2024-10-02T10:53:17.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\Microsoft.Windows.AppNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Projection.dll</PackagePath>
+      <Modified>2024-10-02T10:53:18.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll</PackagePath>
+      <Modified>2024-10-02T10:53:19.237</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\Microsoft.Windows.ApplicationModel.Resources.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.Resources.Projection.dll</PackagePath>
+      <Modified>2024-10-02T10:53:20.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll</PackagePath>
+      <Modified>2024-10-02T10:53:20.723</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\Microsoft.Windows.PushNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.PushNotifications.Projection.dll</PackagePath>
+      <Modified>2024-10-02T10:53:21.446</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\Microsoft.Windows.Security.AccessControl.Projection.dll">
+      <PackagePath>Microsoft.Windows.Security.AccessControl.Projection.dll</PackagePath>
+      <Modified>2024-10-02T10:53:22.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\Microsoft.Windows.System.Power.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Power.Projection.dll</PackagePath>
+      <Modified>2024-10-02T10:53:22.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\Microsoft.Windows.System.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Projection.dll</PackagePath>
+      <Modified>2024-10-02T10:53:23.474</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\Microsoft.Windows.Widgets.Providers.Projection.dll">
+      <PackagePath>Microsoft.Windows.Widgets.Providers.Projection.dll</PackagePath>
+      <Modified>2024-10-02T10:53:24.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+      <Modified>2024-10-02T10:53:24.832</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\WordleGame.dll">
+      <PackagePath>WordleGame.dll</PackagePath>
+      <Modified>2024-10-02T10:53:25.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+      <Modified>2024-10-02T10:53:26.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+      <Modified>2024-10-02T10:53:26.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+      <Modified>2024-10-02T10:53:27.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+      <Modified>2024-10-02T10:53:28.214</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+      <Modified>2024-10-02T10:53:28.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+      <Modified>2024-10-02T10:53:29.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\System.IO.MemoryMappedFiles.dll">
+      <PackagePath>System.IO.MemoryMappedFiles.dll</PackagePath>
+      <Modified>2024-10-02T10:53:30.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+      <Modified>2024-10-02T10:53:30.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+      <Modified>2024-10-02T10:53:31.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+      <Modified>2024-10-02T10:53:32.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\System.Private.CoreLib.dll">
+      <PackagePath>System.Private.CoreLib.dll</PackagePath>
+      <Modified>2024-10-02T10:53:36.471</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+      <Modified>2024-10-02T10:53:37.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+      <Modified>2024-10-02T10:53:38.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+      <Modified>2024-10-02T10:53:38.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+      <Modified>2024-10-02T10:53:39.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\System.Security.Cryptography.Algorithms.dll">
+      <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
+      <Modified>2024-10-02T10:53:40.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\System.Security.Cryptography.Primitives.dll">
+      <PackagePath>System.Security.Cryptography.Primitives.dll</PackagePath>
+      <Modified>2024-10-02T10:53:40.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+      <Modified>2024-10-02T10:53:41.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\Microsoft.Windows.SDK.NET.dll">
+      <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
+      <Modified>2024-10-02T10:53:42.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\R2R\WinRT.Runtime.dll">
+      <PackagePath>WinRT.Runtime.dll</PackagePath>
+      <Modified>2024-10-02T10:53:44.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\obj\x86\Release\net6.0-windows10.0.19041.0\win10-x86\WordleGame.deps.json">
+      <PackagePath>WordleGame.deps.json</PackagePath>
+      <Modified>2024-10-02T10:53:44.647</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2024-02-06T10:30:02.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <Modified>2024-02-06T10:30:02.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <Modified>2024-02-06T10:30:02.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <Modified>2024-02-06T10:30:02.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <Modified>2024-02-06T10:30:02.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <Modified>2024-02-06T10:30:02.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <Modified>2024-02-06T10:30:02.597</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\tjeer\.nuget\packages\microsoft.windowsappsdk\1.4.230913002\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.4.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.4</Name>
+      <Version>4000.986.611.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.4, MinVersion = 4000.986.611.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\tjeer\.nuget\packages\microsoft.windowsappsdk\1.4.230913002\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.4.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\tjeer\.nuget\packages\microsoft.windowsappsdk\1.4.230913002\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.4.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.4</Name>
+      <Version>4000.986.611.0</Version>
+      <Architecture>win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.4, MinVersion = 4000.986.611.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\tjeer\.nuget\packages\microsoft.windowsappsdk\1.4.230913002\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.4.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\tjeer\.nuget\packages\microsoft.windowsappsdk\1.4.230913002\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.4.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.4</Name>
+      <Version>4000.986.611.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.4, MinVersion = 4000.986.611.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\tjeer\.nuget\packages\microsoft.windowsappsdk\1.4.230913002\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.4.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\tjeer\.nuget\packages\microsoft.windowsappsdk\1.4.230913002\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.4.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.4</Name>
+      <Version>4000.986.611.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.4, MinVersion = 4000.986.611.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\tjeer\.nuget\packages\microsoft.windowsappsdk\1.4.230913002\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.4.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
