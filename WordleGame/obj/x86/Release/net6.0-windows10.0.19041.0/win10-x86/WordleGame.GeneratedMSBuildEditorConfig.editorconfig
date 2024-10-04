@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WordleGame
-build_property.ProjectDir = C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\
+build_property.ProjectDir = C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleApplication\WordleGame\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

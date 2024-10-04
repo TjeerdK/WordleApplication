@@ -332,7 +332,6 @@ namespace WordleGame
                     case 0:
                         border.BorderBrush = new SolidColorBrush(Colors.Gray);
                         break;
-
                 }
             }
         }

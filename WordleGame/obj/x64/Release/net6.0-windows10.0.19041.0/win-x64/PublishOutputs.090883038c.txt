@@ -1,0 +1,3 @@
+C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleApplication\WordleGame\bin\Release\net6.0-windows10.0.19041.0\win10-x64\publish\win10-x64\WordleGame.pdb
+C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleApplication\WordleGame\bin\Release\net6.0-windows10.0.19041.0\win10-x64\publish\win10-x64\resources.pri
+C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleApplication\WordleGame\bin\Release\net6.0-windows10.0.19041.0\win10-x64\publish\win10-x64\WordleGame.exe

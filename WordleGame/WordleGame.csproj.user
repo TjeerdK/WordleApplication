@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_LastSelectedProfileId>C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleGame\Properties\PublishProfiles\win10-arm64.pubxml</_LastSelectedProfileId>
+    <_LastSelectedProfileId>C:\AVANS\Software Ontwikkelen\SAFDFHDGJ\WordleApplication\WordleGame\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+    <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x86</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
   </PropertyGroup>
   <ItemGroup>
     <None Update="App.xaml">

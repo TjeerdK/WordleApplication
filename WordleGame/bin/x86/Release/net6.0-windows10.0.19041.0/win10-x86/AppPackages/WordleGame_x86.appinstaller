@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="file:///C:/AVANS/Software Ontwikkelen/SAFDFHDGJ/WordleApplication/WordleGame/test/WordleGame_x86.appinstaller"
+	Version="1.0.0.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainPackage
+		Name="553c1a13-d118-490e-8d16-6c5a122dea7b"
+		Version="1.0.0.0"
+		Publisher="CN=Tjeerd"
+		Uri="file:///C:/AVANS/Software Ontwikkelen/SAFDFHDGJ/WordleApplication/WordleGame/test/WordleGame_1.0.0.0_x86_Test/WordleGame_1.0.0.0_x86.msix"
+		ProcessorArchitecture="x86" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.WindowsAppRuntime.1.4"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x86"
+			Uri="file:///C:/AVANS/Software Ontwikkelen/SAFDFHDGJ/WordleApplication/WordleGame/test/WordleGame_1.0.0.0_x86_Test/Dependencies/x86/Microsoft.WindowsAppRuntime.1.4.msix"
+			Version="4000.986.611.0" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>

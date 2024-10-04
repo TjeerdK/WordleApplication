@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="WordleGame.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WordleGame"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Vertical" Padding="20" HorizontalAlignment="Center">
+
+        <!-- Game Title -->
+        <TextBlock Text="Wordle Game" 
+                   FontSize="32" 
+                   FontWeight="Bold" 
+                   Margin="0,0,0,20" 
+                   HorizontalAlignment="Center"/>
+        <StackPanel HorizontalAlignment="Center" >
+            <TextBlock x:ConnectionId='37' Text="" x:Name="MessageTB"/>
+        </StackPanel>
+
+        <!-- Grid to display guesses -->
+        <Grid x:ConnectionId='2' x:Name="WordleGrid" 
+              HorizontalAlignment="Center"
+              VerticalAlignment="Top"
+              Margin="0,0,0,20">
+            <!-- Define rows and columns for word display -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Add placeholder for letters, to be populated dynamically -->
+            <Border Grid.Row="0" Grid.Column="0" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='36' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow1Letter1" />
+            </Border>
+
+            <Border Grid.Row="0" Grid.Column="1" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='35' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow1Letter2"/>
+            </Border>
+            
+            <Border Grid.Row="0" Grid.Column="2" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='34' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow1Letter3"/>
+            </Border>
+
+            <Border Grid.Row="0" Grid.Column="3" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='33' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow1Letter4"/>
+            </Border>
+
+            <Border Grid.Row="0" Grid.Column="4" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='32' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow1Letter5"/>
+            </Border>
+
+            <!--row2-->
+            <Border Grid.Row="1" Grid.Column="0" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='31' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow2Letter1"/>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="1" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='30' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow2Letter2"/>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="2" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='29' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow2Letter3"/>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="3" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='28' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow2Letter4"/>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="4" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='27' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow2Letter5"/>
+            </Border>
+
+            <!--row 3-->
+            <Border Grid.Row="2" Grid.Column="0" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='26' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow3Letter1"/>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="1" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='25' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow3Letter2"/>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="2" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='24' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow3Letter3"/>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="3" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='23' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow3Letter4"/>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="4" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='22' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow3Letter5"/>
+            </Border>
+            
+            <!--row4-->
+
+            <Border Grid.Row="3" Grid.Column="0" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='21' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow4Letter1"/>
+            </Border>
+
+            <Border Grid.Row="3" Grid.Column="1" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='20' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow4Letter2"/>
+            </Border>
+
+            <Border Grid.Row="3" Grid.Column="2" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='19' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow4Letter3"/>
+            </Border>
+
+            <Border Grid.Row="3" Grid.Column="3" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='18' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow4Letter4"/>
+            </Border>
+
+            <Border Grid.Row="3" Grid.Column="4" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='17' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow4Letter5"/>
+            </Border>
+            
+            <!--row5-->
+
+            <Border Grid.Row="4" Grid.Column="0" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='16' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow5Letter1"/>
+            </Border>
+
+            <Border Grid.Row="4" Grid.Column="1" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='15' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow5Letter2"/>
+            </Border>
+
+            <Border Grid.Row="4" Grid.Column="2" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='14' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow5Letter3"/>
+            </Border>
+
+            <Border Grid.Row="4" Grid.Column="3" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='13' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow5Letter4"/>
+            </Border>
+
+            <Border Grid.Row="4" Grid.Column="4" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='12' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow5Letter5"/>
+            </Border>
+
+            <!--row6-->
+
+            <Border Grid.Row="5" Grid.Column="0" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='11' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow6Letter1"/>
+            </Border>
+
+            <Border Grid.Row="5" Grid.Column="1" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='10' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow6Letter2"/>
+            </Border>
+
+            <Border Grid.Row="5" Grid.Column="2" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='9' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow6Letter3"/>
+            </Border>
+
+            <Border Grid.Row="5" Grid.Column="3" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='8' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow6Letter4"/>
+            </Border>
+
+            <Border Grid.Row="5" Grid.Column="4" BorderBrush="Gray" BorderThickness="2" Margin="5">
+                <TextBlock x:ConnectionId='7' Text="" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TBRow6Letter5"/>
+            </Border>
+            <!-- Add additional grid cells as needed -->
+            <!-- You can add more rows and columns dynamically based on how you want to display letters -->
+        </Grid>
+
+        <!-- TextBox for user input -->
+        <TextBox x:ConnectionId='3' x:Name="GuessInput" 
+                 PlaceholderText="Enter your guess..." 
+                 FontSize="18" 
+                 HorizontalAlignment="Stretch"
+                 Margin="0,10,0,20" 
+                 MaxLength="5"/>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <!-- Button to submit the guess -->
+            
+            <Button x:ConnectionId='5' x:Name="SubmitGuessButton"
+                    Content="Submit" 
+                    FontSize="18" 
+                    Padding="10,5"
+                    HorizontalAlignment="Center" 
+                    Width="100"
+                    Grid.Column="0"
+                    Grid.Row="0"
+                                                   />
+
+            <Button x:ConnectionId='6' x:Name="RestartButton"
+                Content="Restart" 
+                FontSize="18" 
+                Padding="10,5"
+                HorizontalAlignment="Center" 
+                Width="100"
+                Grid.Column="1"
+                Grid.Row="0"
+                Visibility="Visible"
+                                               
+                />
+
+        </Grid>
+        <!-- Result feedback -->
+        <TextBlock x:ConnectionId='4' x:Name="ResultTextBlock"
+                   Text=""
+                   FontSize="18"
+                   FontWeight="Bold"
+                   Foreground="Green"
+                   Margin="0,20,0,0"
+                   HorizontalAlignment="Center"/>
+
+        
+    </StackPanel>
+
+    
+</Window>
+
